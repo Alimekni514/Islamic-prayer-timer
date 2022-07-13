@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prayer Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="welcome">
+      <div class="header">
+        <div class="title">مرحبا بك في تطبيق معرفة اوقات الصلاة</div>
+        <div class="info">
+          <p>الرجاء كتابة اسم بلدك بالصحيح لكي تتم عملية البحث بالنجاح</p>
+        </div>
+        <button id="next1" class="next">التالي</button>
+      </div>
+    </div>
+    <div class="search">
+      <div class="header">
+        <label for="country">قم بوضع اسم بلدك هنا</label>
+        <input type="text" name="" id="country" />
+        <label for="city">قم بوضع اسم ولايتك هنا</label>
+        <input type="text" name="" id="city" />
+        <button class="next" id="searcho">بحث</button>
+      </div>
+    </div>
+    <div class="result_box">
+      <div class="header">
+        <div class="title"><span>Tunis</span> توقيت الصلاة في</div>
+        <div class="day"><span>2022/06/22</span>يوم</div>
+      </div>
+      <div class="content">
+        <h6>الصبح</h6>
+        <h6>الظهر</h6>
+        <h6>العصر</h6>
+        <h6>المغرب</h6>
+        <h6>العشاء</h6>
+      </div>
+      <div class="tawkit">
+        <input type="text" name="" id="sobeh" />
+        <input type="text" name="" id="dhoher" />
+        <input type="text" name="" id="asr" />
+        <input type="text" name="" id="maghreb" />
+        <input type="text" name="" id="ache" />
+      </div>
+      <div class="buttons">
+        <button class="previous" id="previousres">رجوع</button>
+        <button class="exit" id="exit">خروج</button>
+      </div>
+    </div>
+    <div class="error_box">
+      <div class="header">
+        <div class="title">الرجاء التثبث من كتابة اسم البلد بالصحيح</div>
+        <img src="images/source.webp" alt="" />
+      </div>
+      <button class="previouserror" id="previouserror">رجوع</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
